@@ -72,3 +72,16 @@
 .btn-primary:hover {
   background-color: #cc0000; /* Darken color on hover */
 }
+.redline {
+  border-top: 7px solid #ff0000; 
+    width: 100%; 
+  margin-top: 20px; 
+}
+.red-hover:hover {
+  background-color: red;
+    outline: 2px solid red;
+}
+.red-hover
+{
+  outline: 2px solid red;
+}

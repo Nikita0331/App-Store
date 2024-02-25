@@ -1,0 +1,74 @@
+/* Navbar styles */
+.navbar {
+  background-color: #000 !important; /* Black color for the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important; /* White color for the nav links */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ff0000 !important; /* Red color for nav links on hover, focus, and when active */
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ddd; /* Add border to cards */
+  border-radius: 8px; /* Add border radius */
+  padding: 10px; /* Add padding */
+}
+
+.card img {
+  width: 100%; /* Make images fill the card width */
+  height: auto; /* Ensure aspect ratio is maintained */
+  border-radius: 8px; /* Add border radius to images */
+}
+
+.card-title {
+  color: #333; /* Set title color */
+  font-size: 18px; /* Set title font size */
+  margin-bottom: 10px; /* Add some space below title */
+}
+
+.card-text {
+  color: #666; /* Set text color */
+}
+
+.card-footer {
+  background-color: #f8f9fa; /* Set background color for card footer */
+  border-top: 1px solid #ddd; /* Add top border */
+  padding: 10px; /* Add padding */
+}
+
+.text-body-secondary {
+  color: #666; /* Set text color for footer */
+}
+
+/* Add to Cart button styles */
+.btn-add-to-cart{
+  background-color: #ff0000; /* Set background color to red */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Add padding */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.btn-add-to-cart:hover {
+  background-color: #cc0000; /* Darken color on hover */
+}
+.btn-primary{
+  background-color: #ff0000; /* Set background color to red */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Add padding */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s; /* Add transition effect */
+}
+.btn-primary:hover {
+  background-color: #cc0000; /* Darken color on hover */
+}

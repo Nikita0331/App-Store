@@ -1,10 +1,10 @@
 /* Navbar styles */
 .navbar {
-  background-color: #000 !important; /* Black color for the navbar */
+  background-color: #fff !important; /* Black color for the navbar */
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff !important; /* White color for the nav links */
+  color: #000 !important; /* White color for the nav links */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -75,7 +75,7 @@
 .redline {
   border-top: 7px solid #ff0000; 
     width: 100%; 
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 .red-hover:hover {
   background-color: red;

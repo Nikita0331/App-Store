@@ -1,17 +1,58 @@
 /* Navbar styles */
 .navbar {
-  background-color: #000 !important; /* Black color for the navbar */
+  background-color: #fff !important; /* Black color for the navbar */
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff !important; /* White color for the nav links */
+  color: #000 !important; /* White color for the nav links */
 }
-
+.dropdown-item
+{
+  color:#000 !important;
+}
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #ff0000 !important; /* Red color for nav links on hover, focus, and when active */
 }
+.dropdown-item:hover{
+  color:red !important;
+}
+.welcome-section {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the section covers the full viewport height */
+}
+
+.welcome-text {
+  color: white; /* Adjust text color as per your design */
+  margin-top: 100px; /* Adjust the top margin to create space between the search bar and the text */
+  text-align: center; /* Center-align the text */
+}
+
+.welcome-text h1 {
+  font-size: 36px; /* Adjust font size as per your design */
+  margin-bottom: 20px;
+  color: red;
+}
+
+.welcome-text p {
+  font-size: 18px; /* Adjust font size as per your design */
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.input-group-text {
+  cursor: pointer; /* Add pointer cursor to indicate interaction */
+}
+
 
 /* Card styles */
 .card {
@@ -71,4 +112,17 @@
 }
 .btn-primary:hover {
   background-color: #cc0000; /* Darken color on hover */
+}
+.redline {
+  border-top: 7px solid #ff0000; 
+    width: 100%; 
+  margin-top: 20px;
+}
+.red-hover:hover {
+  background-color: red;
+  outline : 2px solid red;
+}
+.red-hover
+{
+  outline: 2px solid red;
 }

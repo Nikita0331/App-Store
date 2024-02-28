@@ -187,11 +187,17 @@
 }
 
 .hero-secondary:before {
-    background-color: #1598cb
+    background: linear-gradient(-45deg, #ffffff 20%, #ffffff 42%);
+
 }
 
 .hero-accent:before {
     background-color: #82c341
+}
+.hero:after {
+    background: linear-gradient(-45deg, #904848 20%, #cb1515 42%);
+    left: -150%;
+    transform: rotateZ(-8deg);
 }
 
 .popover,
